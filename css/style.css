@@ -1,0 +1,254 @@
+*{margin: 0;
+padding: 0;}
+@import "http://fonts.fontstorage.com/import/greatvibes.css";
+@font-face {font-family: Cleanvertising;
+src: url(../fonts/CLEANVEL.TTF);}
+@font-face {font-family: FontAwesome;
+src: url(../fonts/FontAwesome.otf);}
+@font-face {font-family: Bad Script;
+src: url(../fonts/BadScript-Regular.ttf);}
+
+body {background:url(../images/fon2.png) center center fixed no-repeat;
+background-size:cover;}
+
+header {width: 100%;
+height: 100px;
+position: fixed;
+position: absolute;
+z-index: 99;
+background: rgba(140, 119, 74, 0.7);
+font-family: Cleanvertising, sans-serif; }
+
+#logo {width: 90px;
+height: 100px;
+float: left;
+opacity: 0.7;
+margin-left: 60px;
+margin-right: 50px;
+cursor: pointer;
+}
+#logo img {width: 90px;
+height: auto}
+
+menu {width: 77%;
+height: 100px;
+float: left;}
+
+menu ul{position: relative;
+}
+
+menu ul li {float:left; 
+	list-style-type:none;}
+
+menu ul li {font-size: 1em;
+text-transform: uppercase;
+color: white;
+font-family: Cleanvertising, sans-serif;
+padding: 17px 30px 21px 30px;}
+
+menu li a{display:block; 
+	color:white; 
+	text-decoration:none; 
+	padding:20px}
+menu ul li:hover > ul{display:block}
+
+menu ul ul {display:none;
+	position:absolute;
+	top:100px}
+
+menu ul ul li
+{float: none;
+	background: rgba(140, 119, 74, 0.7);
+position: relative;
+padding: 4px 20px 4px 20px;
+text-transform: uppercase;}
+
+menu ul ul li:hover {color: white;
+text-decoration: underline;}
+menu ul ul ul{position:absolute; 
+	top:0; 
+	left:100%}
+
+#bar {float: left;
+	margin-right: 40px;}
+
+#bar i {font-size: 1.5em;
+padding: 35px 20px 41px 20px;
+color: white;
+cursor: pointer;
+opacity: 0.7
+}
+
+/******************************************************/
+section.a {width: 70%;
+height: 334px;
+float: left;
+position: relative;
+margin-top: 140px;
+margin-left: 20%;
+margin-bottom: 20px;
+text-transform: uppercase;
+color: #d1af69;
+font-family: Cleanvertising, sans-serif;
+}
+section.a .ablock1 {position: absolute;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+}
+section.a .ablock2 {position: absolute;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+section.a .ablock3 {position: absolute;
+	margin-left: 60px;
+	margin-top: 60px;
+}
+section.a img
+{-webkit-box-shadow: -2px -2px 0px 0px rgba(120,104,62,1);
+-moz-box-shadow: -2px -2px 0px 0px rgba(120,104,62,1);
+box-shadow: -2px -2px 0px 0px rgba(120,104,62,1);}
+section.a h1 {font-size: 3.2em;
+float: left;
+text-shadow: 2px 2px 1px rgba(17, 17, 17, 1);
+line-height: 1.86em;
+margin-top: 38px;
+margin-left: 45%}
+
+section.b {width: 90%;
+height: auto;
+float: left;
+margin-left: 5%;
+margin-top: 100px;
+margin-bottom: 100px;
+text-transform: uppercase;
+color: white;
+display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+align-items: stretch;
+flex-wrap: wrap;}
+
+section.b h2 {float: left;
+	font-size: 1.8em;
+	letter-spacing: 0.1em;
+	text-shadow: 2px 2px 1px rgba(17, 17, 17, 1);
+	font-family: Cleanvertising, sans-serif;
+	text-align: center;
+}
+section.b h2 a {text-decoration: none;
+color: white}
+/*******************************************************/
+footer {width: 100%;
+height: 300px;
+background: rgba(140, 119, 74, 0.6);
+border-radius: 200px 0px 0px 0px;
+-moz-border-radius: 200px 0px 0px 0px;
+-webkit-border-radius: 200px 0px 0px 0px;
+border: 0px solid #000000;
+float: left;}
+
+#footer {width:90%;
+height: 250px;
+margin-top: 30px;
+margin-left: 5%;
+float: left;
+bottom: 0;
+}
+footer #fin {width: 30%;
+height: 200px;
+float: left;
+letter-spacing: 0.1em;
+margin-right: 5%;
+text-shadow: 2px 2px 1px rgba(17, 17, 17, 1);
+}
+
+#footer .a{margin-right:0%}
+
+#fin h2 {color: white;
+text-transform: uppercase;
+text-align: left;
+font-family: Cleanvertising, sans-serif;
+padding: 20px 0 10px 20px;
+line-height: 1.8em;}
+
+#fin p {color: white;
+	font-size: 1.5em;
+text-align: left;
+font-family: Cleanvertising, sans-serif;
+padding: 20px 0 10px 20px;
+line-height: 1.8em;}
+
+iframe {width: 100%;
+height: 100%}
+
+
+
+/********************************/
+
+
+#sitemap {background: background: rgba(222,178,149,1);
+background: -moz-linear-gradient(45deg, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(255,219,127,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(222,178,149,1)), color-stop(0%, rgba(222,178,149,1)), color-stop(0%, rgba(222,178,149,1)), color-stop(100%, rgba(255,219,127,1)));
+background: -webkit-linear-gradient(45deg, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(255,219,127,1) 100%);
+background: -o-linear-gradient(45deg, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(255,219,127,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(255,219,127,1) 100%);
+background: linear-gradient(45deg, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(222,178,149,1) 0%, rgba(255,219,127,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deb295', endColorstr='#ffdb7f', GradientType=1 );
+width: 100%; height: 700px; 
+}
+#sitemap
+{
+	display: none;
+	position: absolute;
+	z-index: 9999
+}
+#button {width: 90%;
+	height: 70px;
+margin-top: 30px;
+margin: auto;
+font-size: 2em;
+border-bottom: 1px solid #272822;}
+
+#button i {cursor: pointer;
+	padding-top: 20px;
+color: #272822;
+float: right;}
+
+#map {width: 90%;
+height: auto;
+margin: auto;}
+
+#logos {width: 300px;
+height: auto;
+float: left;
+opacity: 0.7;
+margin-right: 2%}
+
+nav ul.back {width: 14%;
+height: auto;
+float: left;
+margin-right: 0.5%}
+
+nav ul.back li {list-style-type: none;
+text-transform: uppercase;
+color: #5e585d;
+font-weight: bold;
+font-family: Cleanvertising;
+padding: 10px 0 10px 0;}
+
+nav ul.back li a{text-decoration: none;
+color: #5e585d; }
+
+nav ul.back li a:hover {color: white;
+opacity: 0.7}
+nav ul.back li.notmain p:hover{color: white;}
+.main p{color: white;}
+.notmain p {color: #5e585d;
+	font-weight: normal;}
+
+	#social {width: 90%;
+		float: left;
+		margin-left: 5%;
+		margin-top: 20px;
+		border-top: 1px solid #272822;}
